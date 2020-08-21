@@ -14,6 +14,6 @@ The library code targets Java 1.8 and above. The JUnit tests are built with JUni
 
 ### Documentation
 
-Read the JavaDoc at https://github.com/jmussman/credit-card-validator.
+Read the JavaDoc at https://jmussman.github.io/credit-card-validator/.
 <hr>
 Copyright © 2020 Joel Mussman. All rights reserved.
