@@ -4,9 +4,17 @@
 
 package com.wonderfulwidgets.retail;
 
+/**
+ * Supports validting credit card numbers as strings of digits using the Luhn algorithm.
+ */
 public class CreditCardValidator {
 
-    public boolean validateCardNumber(String cardNumber) {
+    /**
+     * Accepts a string of digits and validates the credit card number using the Luhn algorithm.
+     * @param cardNumber The string of digits in the card number; digits only, no spaces or dashes.
+     * @return true if the card number is valid.
+     */
+    public boolean validateCardNumber(String cardNumber) throws NullPointerException {
 
         boolean result = false;
 
